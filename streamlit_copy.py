@@ -19,7 +19,7 @@ st.set_page_config(page_title="우리동네 가성비", page_icon=":house:", lay
 
 # @st.cache_data
 # def load_data():
-#     loader = CSVLoader(file_path='./data_preprocessing.csv', encoding='utf-8', csv_args={
+#     loader = CSVLoader(file_path='./data_preprocessing2.csv', encoding='utf-8', csv_args={
 #             'delimiter': ',',
 #             'quotechar': '"',
 #                             })
@@ -30,7 +30,7 @@ st.set_page_config(page_title="우리동네 가성비", page_icon=":house:", lay
 llm = ChatOpenAI(model_name="gpt-4o-mini", temperature=0, openai_api_key=OPENAI_KEY)
 
 vectorstore = Chroma(persist_directory="./chroma_store_5", embedding_function=OpenAIEmbeddings(openai_api_key=OPENAI_KEY, model='text-embedding-3-small'))
-#vectorstore = Chroma.from_documents(documents=data, embedding=OpenAIEmbeddings(openai_api_key=OPENAI_KEY, model='text-embedding-3-small'))
+#vectorstore = Chroma.from_documents(documents=data, embedding=OpenAIEmbeddings(openai_api_key=OPENAI_KEY, model='text-embedding-3-small'),persist_directory="./chroma_store_5")
 retriever = vectorstore.as_retriever()
 
 @st.cache_resource
