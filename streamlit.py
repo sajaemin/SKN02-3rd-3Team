@@ -111,7 +111,7 @@ def main():
     if st.button("질문하기"):
         if question:
             response = conversation(question)
-            st.write(response)
+            #st.write(response)
             if "chat_history" not in st.session_state:
                 st.session_state.chat_history = []
             st.session_state.chat_history.append({"user": question, "bot": response['answer']})
