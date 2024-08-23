@@ -20,6 +20,7 @@
 - 직접 임베딩을 하려면 코드 내 주석을 참고하여 진행해 주십시오.
 
 ## 참고 사항
+- 처리 속도와 정확성을 위해 되도록이면 링크에 있는 vector_store_5를 사용해서 실행하는 것을 권장합니다
 - **저장된 크로마 DB는 구글드라이브를 통해 다운받아주세요.**   
 https://drive.google.com/file/d/1taAJw65M8FS20BjO9cRiE_3zZ--WhCHr/view?usp=sharing
 
