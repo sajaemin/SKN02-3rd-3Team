@@ -1,18 +1,27 @@
-실행 방법 :
-명세서.txt를 참고하여 환경을 구성해주십시오.
+# 프로젝트 실행 가이드
 
-웹으로 보는법 : stremalit_copy.py를 사용합니다. 
-  필요한 것 : chroma_store , openAI_KEY
-  vectorstore를 직접 임베딩하거나 저장된 벡터스토어를 가져올 수 있습니다.
-  직접 임베딩을 하려면 주석을 참고하여 진행하여 주십시오.
+## 환경 설정
+- `명세서.txt` 파일을 참고하여 환경을 구성해주십시오.
 
-코드 내에서 확인하는법 : 착한가격업소for_github.ipynb를 사용합니다.
-  필요한 것 : chroma_store , openAI_KEY 
-  vectorstore를 직접 임베딩하거나 저장된 벡터스토어를 가져올 수 있습니다.
-  직접 임베딩을 하려면 주석을 참고하여 진행하여 주십시오.
+## 웹에서 실행하는 방법
+- `streamlit_copy.py` 파일을 사용합니다.
+- 필요한 항목:
+  - `chroma_store`
+  - `openAI_KEY`
+- Vectorstore를 직접 임베딩하거나, 저장된 vectorstore를 가져올 수 있습니다.
+- 직접 임베딩을 하려면 코드 내 주석을 참고하여 진행해 주십시오.
 
+## 코드 내에서 확인하는 방법
+- `착한가격업소for_github.ipynb` 파일을 사용합니다.
+- 필요한 항목:
+  - `chroma_store`
+  - `openAI_KEY`
+- Vectorstore를 직접 임베딩하거나, 저장된 vectorstore를 가져올 수 있습니다.
+- 직접 임베딩을 하려면 코드 내 주석을 참고하여 진행해 주십시오.
 
-** 저장된 크로마 db는 용량 때문에 깃허브에 올라가지 않았습니다. **
+## 참고 사항
+- **저장된 크로마 DB는 용량 문제로 인해 깃허브에 업로드되지 않았습니다.**
+
 
 
 ![1](https://github.com/user-attachments/assets/6be03ad4-7ef5-4442-a643-adad51fa5301)
