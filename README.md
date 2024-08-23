@@ -20,8 +20,8 @@
 - 직접 임베딩을 하려면 코드 내 주석을 참고하여 진행해 주십시오.
 
 ## 참고 사항
-- **저장된 크로마 DB는 용량 문제로 인해 깃허브에 업로드되지 않았습니다.**
-
+- **저장된 크로마 DB는 구글드라이브를 통해 다운받아주세요.**
+https://drive.google.com/file/d/1taAJw65M8FS20BjO9cRiE_3zZ--WhCHr/view?usp=sharing
 
 
 ![1](https://github.com/user-attachments/assets/6be03ad4-7ef5-4442-a643-adad51fa5301)
